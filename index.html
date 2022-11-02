@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, SASS, JavaScript, Jquery, Bootstrap, Font Awesome">
+    <meta name="author" content="Jaylan Esquivel">
+    <!-- stylesheet includes -->
+    <link href="./assets/bootstrap-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- stylesheet includes -->
+    <title>Player de audio HTML5 - Rádio Web</title>
+</head>
+<body>
+    <div class="container-fluid  text-center">
+        <div class="row">
+            <div class="col-md-12 bdr">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4 col-12" id="parte1">
+                        <img src="./assets/img/leologo.png" class="img-thumbnail logo-player"  />
+                  
+                        <span class="text-center">LA Sports</span>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <img src="./assets/img/stop.png" class="img-fluid logo-icons" id="stop-btt" />
+                        <img src="./assets/img/play.png" class="img-fluid logo-icons" id="play-btt" />
+                        <img src="./assets/img/pause.png" class="img-fluid logo-icons" id="pause-btt" />
+                        <img src="./assets/img/plus.png" class="img-fluid logo-icons" id="plus-btt" />
+                        <img src="./assets/img/minus.png" class="img-fluid logo-icons" id="minus-btt" />
+                        <span class="text-center" id="text-audio">parado</span>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <a href="#" target="_blank"><img src="./assets/img/anucio1.png" class="img-fluid" id="anuncio" /></a>
+                    </div>
+                </div>
+
+                <audio id="audio-music">
+                    <source src="https://stream.zeno.fm/f9bloe8toyjvv" type="audio/ogg">
+                    <source src="https://stream.zeno.fm/f9bloe8toyjvv" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+            </div>
+        </div>
+    </div>
+
+
+     <!-- JavaScript includes -->
+     <script src="https://kit.fontawesome.com/f35f15f80c.js" crossorigin="anonymous"></script>
+     <script src="./assets/js/jquery-3.5.1.js"></script>
+     <script src="./assets/bootstrap-dist/js/bootstrap.bundle.min.js"></script>
+     <script src="./assets/js/myfunctions.js"></script>
+     <!-- JavaScript includes -->
+</body>
+</html>
